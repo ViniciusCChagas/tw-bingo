@@ -1,0 +1,15 @@
+.container {
+	width: 100vw;
+	min-height: 100vh;
+	background: var(--blue);
+
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	justify-content: center;
+
+	.adminContainer {
+		z-index: 2;
+	}
+}
